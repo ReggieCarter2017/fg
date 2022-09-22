@@ -7,8 +7,8 @@ string[] sortArray(string[] array)
     {
         if (array[i].Length < 4) 
         {
-            count++;
             newArray[count] = array[i];
+            count++;
         }
     }
     return newArray;
