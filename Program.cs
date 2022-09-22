@@ -2,9 +2,14 @@
 string[] sortArray(string[] array)
 {
     string[] newArray = new string[array.Length];
+    int count = 0;
     for (int i = 0; i < newArray.Length; i++)
     {
-        if (array[i].Length < 4) newArray[i] = array[i];
+        if (array[i].Length < 4) 
+        {
+            count++;
+            newArray[count] = array[i];
+        }
     }
     return newArray;
 }
