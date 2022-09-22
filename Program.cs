@@ -13,7 +13,7 @@ string[] sortArray(string[] array)
     }
     return newArray;
 }
-string[] a = {"12", "Paper", " ..213", "Peq", " .1"};
+string[] a = {"0tyrtyrty", "Paper", " ..213", "rtyrtyrty", " rtyrtyrty.1"};
 
 void PrintArray(string[] b)
 {
